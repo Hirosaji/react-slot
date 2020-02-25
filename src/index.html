@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React Tutorials</title>
+    <!-- change this up! http://www.bootstrapcdn.com/bootswatch/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <style>
+      .group {
+        transition-delay: 0ms;
+        transition-timing-function: ease-in-out;
+        transform: translate(0, 0);
+        text-align:center
+      }
+
+      .reel {
+        height: 1em;
+        width: 1em;
+        /* display: flex; */
+        align-items: flex-end;
+        /* overflow-y: hidden; */
+        overflow-y: scroll;
+
+        /** CUSTOMISE BELOW */
+        font-size: 40px;
+        font-weight: 300;
+        color: rgb(0, 103, 184);
+        line-height: 0.95em; /* adjusted for Lato font */
+
+        border: solid 3px #364e96;
+        border-radius: 0.1em;
+
+        -ms-overflow-style: none;    /* IE, Edge 対応 */
+        scrollbar-width: none;       /* Firefox 対応 */
+      }
+
+      .reel::-webkit-scrollbar {  /* Chrome, Safari 対応 */
+        display:none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script src="client.min.js"></script>
+  </body>
+</html>
