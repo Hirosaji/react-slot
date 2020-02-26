@@ -6,7 +6,7 @@ export default class Layout extends React.Component {
     render() {
         return (
             <div>
-                <Reel />
+                <Reel unit="%" />
                 <START />
                 <STOP />
             </div>
