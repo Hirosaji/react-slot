@@ -2,7 +2,7 @@
 Simple Slot component without jQuery
 
 ## Screenshot
-<img width="600" alt="screenshot" src="https://user-images.githubusercontent.com/20412522/75235448-9a95b180-57ff-11ea-96bf-49f2a4703587.png">
+<img width="600" alt="スクリーンショット 2020-02-26 18 20 49" src="https://user-images.githubusercontent.com/20412522/75331602-56b9af80-58c6-11ea-83d1-d2f38e125561.png">
 
 ## Development
 
