@@ -17,8 +17,8 @@ export function START(props) {
 
             // fire init start event
             let addStyles = [
-                "transform: translate(0px, -" + targetNum * emSize + "px);",
-                "transition-duration: 0.5s;",
+                "transform: translate(0px, -" + targetNum * emSize * 2 + "px);",
+                "transition-duration: 0.75s;",
                 "transition-timing-function:" + timing + ";"
             ];
             targetReel.setAttribute("style", addStyles.join(""));
@@ -70,14 +70,14 @@ export function STOP(props) {
 
             // fire 1st stop event
             let addStyles = [
-                "transform: translate(0px, -" + transitionY1st + "px);",
+                "transform: translate(0px, -" + (transitionY1st * 2 + emSize) + "px);",
             ];
             targetReel.setAttribute("style", addStyles.join(""));
 
             // fire 2nd stop event
             addStyles = [
-                "transform: translate(0px, -" + transitionY2nd + "px);",
-                "transition-duration: 2.5s;",
+                "transform: translate(0px, -" + (transitionY2nd * 2 + emSize) + "px);",
+                "transition-duration: 2s;",
                 "transition-timing-function:ease-out;"
             ];
             targetReel.setAttribute("style", addStyles.join(""));
